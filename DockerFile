@@ -1,8 +1,9 @@
-FROM openjdk:17
-COPY target/demo-app.jar  /user/app/
-WORKDIR /user/app
+FROM eclipse-temurin:17-jdk-jammy  # Better than plain openjdk (smaller, optimized for Java)
+
+WORKDIR /app  # Better than /user/app (more conventional)
+
+COPY target/demo-app.jar app.jar  # Simplified name
 
 EXPOSE 8080
 
-ENTRYPOINT [ "java" , "-jar" ,"demo-app.jar" ]
-
+ENTRYPOINT ["java", "-jar", "app.jar"]

@@ -1,0 +1,11 @@
+2025-05-01T03:14:57.869+05:30  INFO 10192 --- [demo-app] [main] c.example.demo_app.DemoAppApplication    : Starting DemoAppApplication using Java 19.0.2 with PID 10192 (C:\Users\Ayush verma\Downloads\demo-app\demo-app\target\classes started by Ayush verma in C:\Users\Ayush verma\Downloads\demo-app\demo-app)
+2025-05-01T03:14:57.873+05:30  INFO 10192 --- [demo-app] [main] c.example.demo_app.DemoAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-05-01T03:14:59.879+05:30  INFO 10192 --- [demo-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-05-01T03:14:59.906+05:30  INFO 10192 --- [demo-app] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-01T03:14:59.911+05:30  INFO 10192 --- [demo-app] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-01T03:14:59.998+05:30  INFO 10192 --- [demo-app] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-01T03:14:59.999+05:30  INFO 10192 --- [demo-app] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2031 ms
+2025-05-01T03:15:00.656+05:30  INFO 10192 --- [demo-app] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-05-01T03:15:00.669+05:30  INFO 10192 --- [demo-app] [main] c.example.demo_app.DemoAppApplication    : Started DemoAppApplication in 3.738 seconds (process running for 4.427)
+2025-05-01T04:25:13.670+05:30  INFO 10192 --- [demo-app] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-01T04:25:14.829+05:30  INFO 10192 --- [demo-app] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
